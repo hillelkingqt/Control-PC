@@ -1,4 +1,3 @@
-```markdown
 # 🤖 AI-Powered Telegram Bot with File Search, Code Execution, and Self-Update
 
 ## 📌 Overview
