@@ -6,7 +6,7 @@ This AI-powered Telegram bot is designed to automate complex tasks, including **
 It supports **natural language processing**, enabling users to issue complex commands like:
 - **"Find all PDF files in my Downloads folder that were created in the last week and copy them to a new folder called 'Recent PDFs' on my Desktop."**
 - **"Search for an Excel report from last month and send it to me on Telegram."**
-- **"Generate a Python script that fetches stock market data and sends it to my email."**
+- **"Finf and send me this file"**
 
 The bot is built to provide **automation, efficiency, and intelligent decision-making**, fully integrated into the Telegram platform.
 
