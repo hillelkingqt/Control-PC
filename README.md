@@ -1,4 +1,3 @@
-
 ```markdown
 # 🤖 AI-Powered Telegram Bot with File Search, Code Execution, and Self-Update
 
@@ -45,25 +44,25 @@ It is designed to provide **automation, productivity enhancements, and intellige
 ### **1️⃣ Install Required Dependencies**
 Ensure you have the necessary dependencies installed before running the bot.
 
-#### 🔹 **Node.js & npm (For Telegram Bot)**
+### **Node.js & npm (For Telegram Bot)**
 Download and install Node.js from [Node.js Official Site](https://nodejs.org/)
 ```sh
 sudo apt update
 sudo apt install nodejs npm
 ```
 
-#### 🔹 **Python (For Script Execution)**
+### **Python (For Script Execution)**
 Download and install Python from [Python Official Site](https://www.python.org/downloads/)
 ```sh
 sudo apt install python3 python3-pip
 ```
 
-#### 🔹 **Install Required npm Packages**
+### **Install Required npm Packages**
 ```sh
 npm install fs path axios child_process readline os node-telegram-bot-api
 ```
 
-#### 🔹 **Install Required Python Modules**
+### **Install Required Python Modules**
 ```sh
 pip install requests telepot python-telegram-bot
 ```
@@ -73,17 +72,17 @@ pip install requests telepot python-telegram-bot
 ## ⚙️ Configuration
 Before running the bot, you need to set up your **API keys** for various services.
 
-### 🔹 **1. Set Up Telegram Bot API**
+### **1. Set Up Telegram Bot API**
 1. Open [BotFather](https://t.me/BotFather) on Telegram.
 2. Send the command `/newbot` and follow the instructions.
 3. Copy the **Telegram Bot Token** and set it in the script as `TELEGRAM_BOT_TOKEN`.
 
-### 🔹 **2. Set Up Cloudflare Whisper API (For Voice Transcription)**
+### **2. Set Up Cloudflare Whisper API (For Voice Transcription)**
 1. Sign up for an account at [Cloudflare](https://www.cloudflare.com/).
 2. Get an API key for **Cloudflare Whisper** transcription.
 3. Set the key in the script as `CLOUDFLARE_API_TOKEN`.
 
-### 🔹 **3. Set Up Google Gemini AI API**
+### **3. Set Up Google Gemini AI API**
 1. Sign up for an API key at [Google AI](https://ai.google.dev/).
 2. Set the key in the script as `GEMINI_API_KEY`.
 
@@ -116,9 +115,9 @@ The bot will begin listening for commands via Telegram.
 ## 📌 Supported Commands
 | Command Type       | Example Usage                                   | Description |
 |--------------------|-----------------------------------------------|-------------|
-| **Generate Code** | `"Create a Python script that opens Google"` | Generates and executes a script. |
-| **File Search**   | `"Find a file named report.pdf"`             | Searches for files across directories. |
-| **Run Scripts**   | `"Run the script backup.py"`                 | Executes an existing Python script. |
+| **Generate Code** | "Create a Python script that opens Google" | Generates and executes a script. |
+| **File Search**   | "Find a file named report.pdf"             | Searches for files across directories. |
+| **Run Scripts**   | "Run the script backup.py"                 | Executes an existing Python script. |
 | **Voice Commands**| (Send a voice note with a request)           | Converts speech to text and processes it. |
 
 ---
