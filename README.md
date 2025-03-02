@@ -98,24 +98,33 @@ pip install requests telepot python-telegram-bot fuzzywuzzy
 
 ## ⚙️ Configuration
 
-Before running the bot, set up your **API keys**.
+Before running the bot, set up your **API keys** and configuration.
 
-### **1️⃣ Set Up Telegram Bot API**
+### **1️⃣ Download and Run the Setup Script**
 
-1. Open [BotFather](https://t.me/BotFather) on Telegram.
-2. Send `/newbot` and follow the instructions.
-3. Copy the **Telegram Bot Token** and set it in the script as `TELEGRAM_BOT_TOKEN`.
+1. **Download the setup script** (`setup_bot.py`) from the GitHub repository.
+2. **Move the script to your desired folder** (e.g., `C:\TelegramBot`).
+3. Open a **Command Prompt (cmd)** and navigate to the folder where the script is located:
 
-### **2️⃣ Set Up Cloudflare Whisper API (For Voice Transcription)**
+```sh
+cd C:\TelegramBot
+```
 
-1. Sign up at [Cloudflare](https://www.cloudflare.com/).
-2. Get an API key for **Cloudflare Whisper** transcription.
-3. Set the key in the script as `CLOUDFLARE_API_TOKEN`.
+4. **Run the script** to configure the bot:
 
-### **3️⃣ Set Up Google Gemini AI API**
+```sh
+python setup_bot.py
+```
 
-1. Get an API key at [Google AI](https://ai.google.dev/).
-2. Set the key in the script as `GEMINI_API_KEY`.
+### **2️⃣ Enter Required Information**
+When prompted, enter the following details:
+
+- **Telegram Bot Token** → Get from [BotFather](https://t.me/BotFather).
+- **Cloudflare Whisper API Key** → Get from [Cloudflare](https://www.cloudflare.com/).
+- **Google Gemini AI API Key** → Get from [Google AI](https://ai.google.dev/).
+- **Your Telegram Username** → Needed for message authentication.
+
+The script will automatically create a configuration file (`config.json`) with your credentials.
 
 ---
 
@@ -123,21 +132,14 @@ Before running the bot, set up your **API keys**.
 
 ### ▶️ **Running the Bot**
 
-1. Configure the bot by running the setup script:
+1. Ensure all dependencies are installed.
+2. Start the bot using:
 
 ```sh
-python path/to/configure_ai.py
+node bot.js
 ```
 
-Follow the on-screen prompts to enter your credentials.
-
-2. Start the bot with:
-
-```sh
-node path/to/your/bot.js
-```
-
-The bot will begin processing Telegram commands and handling requests automatically.
+3. The bot is now active and will respond to Telegram commands automatically.
 
 ---
 
