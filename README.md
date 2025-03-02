@@ -124,7 +124,12 @@ When prompted, enter the following details:
 - **Google Gemini AI API Key** → Get from [Google AI](https://ai.google.dev/).
 - **Your Telegram Username** → Needed for message authentication.
 
-The script will automatically create a configuration file (`config.json`) with your credentials.
+The script will generate a Python file named `search_file.py`, which is responsible for managing file searches. During execution, you will be prompted to enter essential credentials, including:
+- Your **Windows account username** (`USER`), required for file operations.
+- Your **Telegram username** for authentication.
+- API keys for services like Google Gemini AI and Cloudflare Whisper.
+
+Once the script is executed, it will create the necessary configurations and output JavaScript (`configured_ai.js`) and Python (`search_file.py`) files. Running `configured_ai.js` using Node.js will activate the system, enabling it to process commands and interact with Telegram.
 
 ---
 
@@ -136,7 +141,7 @@ The script will automatically create a configuration file (`config.json`) with y
 2. Start the bot using:
 
 ```sh
-node bot.js
+node configured_ai.js
 ```
 
 3. The bot is now active and will respond to Telegram commands automatically.
