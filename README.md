@@ -163,7 +163,7 @@ The bot will begin processing Telegram commands and handling requests automatica
 | Command Type        | Example Usage                                                 | Description                                   |
 | ------------------- | ------------------------------------------------------------- | --------------------------------------------- |
 | **Generate Code**   | "Open Google"                                                 | Executes an automated task.                   |
-| **File Search**     | "Find all PDF files from the last month and move them to Recent PDF'S"  | Searches for files and delivers via Telegram. |
+| **File Search**     | "Find a PDF file named 'HELLO WORLD' and send it to me"  | Searches for files and delivers via Telegram. |
 | **Run Scripts**     | "Run the script backup.py"                                    | Executes an existing script.                  |
 | **Voice Commands**  | (Send a voice note with a request)                            | Converts speech to text and processes it.     |
 | **Advanced Search** | "Find Excel files created last week and move them to Reports" | Performs advanced searches and actions.       |
